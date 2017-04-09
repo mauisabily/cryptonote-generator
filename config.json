@@ -1,0 +1,35 @@
+{
+    "base_coin": {
+        "name": "bytecoin",
+        "git": "https://github.com/amjuarez/bytecoin.git"
+    },
+    "core": {
+        "SEED_NODES": [
+            "127.0.0.1:20622",
+            "209.141.43.254:20622"
+        ],
+        "EMISSION_SPEED_FACTOR": 16,
+        "DIFFICULTY_TARGET": 360,
+        "CRYPTONOTE_DISPLAY_DECIMAL_POINT": 4,
+        "MONEY_SUPPLY": "240784270487",
+        "GENESIS_BLOCK_REWARD": "72235281146",
+        "DEFAULT_DUST_THRESHOLD": 0,
+        "MINIMUM_FEE": 1,
+        "CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW": 4,
+        "CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE": 100000,
+        "CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX": 121,
+        "P2P_DEFAULT_PORT": 20622,
+        "RPC_DEFAULT_PORT": 20623,
+        "BYTECOIN_NETWORK": "a83ccaa6-21e8-4495-9d50-d724ab19e48d",
+        "CRYPTONOTE_NAME": "xmeiracredit",
+        "DAEMON_NAME": "xmeiracreditd",
+        "GENESIS_COINBASE_TX_HEX": "010a01ff0001fad5bb8c8d0202c18bcd5ab808683ebc241ec33bc44f7e3a695f04886c2f4ea244ec5ad7ac7d522101116c45ee4ac13bf6c7676a81654630206836f0786df9f17f83e44b405c6abdbf",
+        "CHECKPOINTS": "",
+        "MAX_BLOCK_SIZE_INITIAL": 100000
+    },
+    "extensions": [
+        "core/bytecoin.json",
+        "print-genesis-tx.json",
+        "genesis-block-reward.json"
+    ]
+}
